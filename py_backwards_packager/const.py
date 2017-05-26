@@ -1,1 +1,1 @@
-COMMANDS = {'sdist', 'bdist', 'bdist_wheel'}
+COMMANDS = {'bdist', 'bdist_wheel'}
