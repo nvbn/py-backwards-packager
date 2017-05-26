@@ -1,6 +1,11 @@
 import pytest
 from subprocess import call
-from pathlib import Path
+
+try:
+    from pathlib import Path
+except ImportError:
+    from pathlib2 import Path
+
 from py_backwards.const import TARGETS
 
 # TODO: test also on 3.0, 3.1 and 3.2
